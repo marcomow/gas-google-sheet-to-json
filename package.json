@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "login": "clasp login",
+        "watch": "clasp push --watch",
+        "logout": "clasp logout",
+        "prepare": "husky install",
+        "logs": "clasp logs --watch",
+        "publish": "clasp deploy",
+        "lint:js": "eslint . --ext .js,.jsx",
+        "lint:js:fix": "npm run lint:js -- --fix",
+        "open:gas": "clasp open"
+    }
+}
